@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #EEEEEE;
+    font-family: poppins;
+}
+header{
+    padding: 2% 10%;
+}
+
+
+/* Home */
+
+.home{
+    padding: 3% 10%;
+}
+.home h1{
+    font-size: 50px;
+}
+.home p{
+    font-size: 20px;
+}
+.nav-item{
+    text-transform: uppercase;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.btn{
+    background-color: #3F3D56;
+    color: #EEEEEE;
+}
+.btn-shop:hover{
+    color: #EEEEEE;
+    transform: scale(0.90);
+}
+.home-img{
+    height: 400px;
+}
+
+/* Features */
+.features{
+    text-align: center;
+    padding: 3% 10%;
+    background: #3F3D56;
+    color: #EEEEEE;
+}
+.judul-features{
+    margin-bottom: 50px;
+}
+.img-features{
+    height: 500px;
+}
+.fungsi{
+    text-align: left;
+}
+
+/* About */
+.about{
+    padding: 3% 10%;
+    text-align: center;
+    height: 120vh;
+}
+.logo{
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.isi-about{
+    font-size: 30px;
+}
+.judul-about{
+    margin-bottom: 50px;
+}
+
+/* Testimoni */
+.testi{
+    padding: 5% 10%;
+    background: #3F3D56;
+    text-align: center;
+}
+.judul-testi{
+    color: #EEEEEE;
+    margin-bottom: 50px;
+}
+.gambar-testi{
+    height: 150px;
+    width: 150px;
+    border-radius: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.card{
+    border-radius: 20px;
+}
+
+/* Shop */
+.shop{
+    padding: 5% 10%;
+}
+.shop-img{
+    height: 400px;
+}
+.judul-shop{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.isi-shop{
+    margin-top: 100px;
+}
+
+/* Contact */
+.contact{
+    padding: 5% 10%;
+    height: 100vh;
+}
+.contact h2{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+/* footer */
+footer{
+    padding: 5% 10% 1%;
+    background: #3F3D56;
+    color: #EEEEEE;
+}
+footer img{
+    height: 100px;
+}
+.copy-right{
+    text-align: center;
+    margin-top: 80px;
+}
+footer a{
+    color: #EEEEEE;
+}
+footer a:hover{
+    color: #EEEEEE;
+}
+footer h5{
+    color: #ffffff;
+    font-weight: bold;
+}
+/* IPAD */
+@media only screen and (max-width:700px){
+    .pertama{
+        order: 2;
+    }
+    .kedua{
+        order: 1;
+    }
+    .about{
+        height: 200vh;
+    }
+    .card{
+        margin-top: 40px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
